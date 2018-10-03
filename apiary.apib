@@ -8,12 +8,13 @@ Service Ticket is an API to manage Service Tickets.  This API fronts both a micr
 ## Tickets Collection [/tickets]
 
 ### List All Tickets [GET]
-Issue a GET request to get a complete list of tickets.  You can include any of the fields as a filter
+Issue a GET request to get a complete list of tickets that the user is authorized to view.  You can include any of the fields as a filter
 + Request
 
     + Headers
     
             Tenant-id: 31
+            api-key: 298rj494383jfj993jf0484h3jk
 
 
 + Response 200 (application/json)
